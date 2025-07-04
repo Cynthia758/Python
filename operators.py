@@ -47,6 +47,9 @@ print(p is q) # you'll recieve false so that means that if things looks similar 
 v = "Hello-World"
 w = "Hello-World"
 print(v is w)
+
+c = (1,2,3)
+print(5 in c)
  
 
 

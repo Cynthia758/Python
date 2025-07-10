@@ -24,7 +24,9 @@ print("""Nadiad""")
 print([1,2,3,4,5])
 
 # tuple
-print((1,2,3,4,5))
+print((1,2,3,4,5)) 
+# We can even store diff datatypes in tuple.
+print((1, "Vaidehi", True))
 
 # sets
 print({1,2,3,4,5})

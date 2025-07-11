@@ -1,1 +1,6 @@
 rows = int(input("Enter no. of rows : "))
+
+for i in range(1,rows+1):
+    for j in range(0,i):
+        print("*", end= " ")  # Keeps printing on the same line...
+    print("")  # Moves to the next line after each row...

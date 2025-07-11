@@ -45,7 +45,7 @@ q = [1,2,3]
 print(p is q) # you'll recieve false so that means that if things looks similar it doesn't mean that they are stored at same place.
 
 v = "Hello-World"
-w = "Hello-World"
+w = "Hello-World"  # Whether return false or true
 print(v is w)
 
 c = (1,2,3)

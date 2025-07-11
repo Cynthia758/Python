@@ -15,7 +15,7 @@ symbols = string.punctuation
 all_char = letters + digits + symbols
 
 # Generate password by randomly choosing characters
-password = ''.join(random.choice(all_char) for _ in range(length))
+password = ''.join(random.choice(all_char) for _ in range(length)) 
 
 # Show the result
 print("Your strong password is : ", password)
